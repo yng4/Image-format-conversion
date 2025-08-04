@@ -1,2 +1,11 @@
-# Image-format-conversion
-用于png，jpg，gif，bmp，webp，tiff，ico之间的格式转换小工具
+支持常见图片格式互转（PNG/JPG/GIF/BMP/WEBP/TIFF/ICO）。
+拖入文件目前还有问题。
+转换好的文件会存放在同目录的output文件夹。
+自适应窗口大小（默认屏幕40%宽度50%高度）。
+可视化文件列表显示。
+进度条实时显示处理进度。
+格式选择下拉菜单。‌
+多线程处理避免界面卡顿。
+支持暂停/继续处理。
+强制停止功能。‌
+使用PIL库处理图像转换，Tkinter构建GUI界面，threading实现后台处理。
